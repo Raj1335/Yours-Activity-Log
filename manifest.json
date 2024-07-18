@@ -1,0 +1,12 @@
+{
+    "short_name":"Activity Log",
+    "name":"Your's Activity Log",
+    "icons":[
+        {
+            "src":"logo.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        }
+    ],
+    "theme_color":"#000000"
+}

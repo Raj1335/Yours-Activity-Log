@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your's Activity Log</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+
+  <p id="user-name">Your</p>
+  <p id="other">activity log</p>
+  <div class="main">
+    
+    <div class="hamburger-menu">
+     <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger-btn">
+      <span class="bar" id="cross1"></span>
+      <span class="bar" id="cross2"></span>
+      <span class="bar" id="cross3"></span>
+      </label>
+    </div>
+
+    <div class="show">
+      <button id="change-name">Change Name</button>
+      <button id="dlt-all">Delete All Log's</button>
+    </div>
+   
+  </div>
+
+
+  <div class="container">
+    <form id="activity-form">
+      <input type="text" id="activity-input" placeholder="Enter activity" required>
+      <input type="datetime-local" id="activity-time" >
+       <button type="submit" id="add_btn">Add Activity</button>
+    </form>
+    <ul id="activity-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
